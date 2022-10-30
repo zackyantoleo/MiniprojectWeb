@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://alta-shop.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Register/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9'))
+
+WebUI.click(findTestObject('Object Repository/Register/Page_frontend-web/a_Register'))
+
+WebUI.setText(findTestObject('Object Repository/Register/Page_frontend-web/input_Nama Lengkap_input-481'), 'zackweb')
+
+int RN;
+RN = (int)(Math.random()*500)
+
+WebUI.setText(findTestObject('Object Repository/Register/Page_frontend-web/input_Email_input-484'), 'zackweb'+RN+'@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Register/Page_frontend-web/input_Password_input-487'), 'zack123')
+
+WebUI.click(findTestObject('Object Repository/Register/Page_frontend-web/button_Register'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Register/Page_frontend-web/div_Login'), 0)
+
+WebUI.closeBrowser()
+
