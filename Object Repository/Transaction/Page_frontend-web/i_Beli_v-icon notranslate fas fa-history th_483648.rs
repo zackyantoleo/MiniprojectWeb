@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Beli_v-icon notranslate fas fa-history th_483648</name>
+   <tag></tag>
+   <elementGuidId>6f7e8655-6518-461b-aabd-9f80a0f1a4e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.v-icon.notranslate.fas.fa-history.theme--light</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div/div[1]/div[1]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d1b4f2bf-6ed0-4df6-ac7a-a0f40d4bcb52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>11bb5818-a18f-4ea7-9b9f-24649496f9c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-icon notranslate fas fa-history theme--light</value>
+      <webElementGuid>25c7aa9e-1e0c-49a4-af77-914939d149a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list-item-2236&quot;)/div[@class=&quot;v-list-item__icon&quot;]/i[@class=&quot;v-icon notranslate fas fa-history theme--light&quot;]</value>
+      <webElementGuid>3cdd2e09-c4ca-4cf3-b148-f4454833ffd2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='list-item-2236']/div/i</value>
+      <webElementGuid>a501369a-ae6f-4588-866d-00d892698a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/i</value>
+      <webElementGuid>f2e60d7a-52d1-41db-aa47-b77c752fa3f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

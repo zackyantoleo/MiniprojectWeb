@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATC_Test Suite,Chrome 106.0.0.0,,,2022-11-01 11:37:31,2022-11-01 11:40:54,3m - 22.622s,FAILED
+,,,,,,,
+Test Cases/ATC/ATC01_Register,Chrome 106.0.0.0,,,2022-11-01 11:37:31,2022-11-01 11:38:25,53.872s,FAILED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:37:32,2022-11-01 11:37:37,4.905s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:37:37,2022-11-01 11:37:51,14.267s,PASSED
+"click(findTestObject(""Object Repository/Register/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:37:51,2022-11-01 11:37:53,1.665s,PASSED
+"click(findTestObject(""Object Repository/Register/Page_frontend-web/a_Register""))",Chrome 106.0.0.0,,,2022-11-01 11:37:53,2022-11-01 11:37:53,0.589s,PASSED
+"setText(findTestObject(""Register/Page_frontend-web/input_Nama Lengkap_input-613""), ""zackweb"")",Chrome 106.0.0.0,,,2022-11-01 11:37:53,2022-11-01 11:38:25,31.837s,FAILED
+,,,,,,,
+Test Cases/ATC/ATC02_Login,Chrome 106.0.0.0,,,2022-11-01 11:38:25,2022-11-01 11:38:43,18.006s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:38:26,2022-11-01 11:38:29,3.623s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:38:29,2022-11-01 11:38:33,3.801s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:38:33,2022-11-01 11:38:36,3.098s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:38:36,2022-11-01 11:38:38,1.504s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:38:38,2022-11-01 11:38:39,0.841s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:38:39,2022-11-01 11:38:39,0.424s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Page_frontend-web/div_AltaShop_v-select__selections""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:38:39,2022-11-01 11:38:42,3.323s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:38:42,2022-11-01 11:38:43,0.776s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC03_Logout,Chrome 106.0.0.0,,,2022-11-01 11:38:43,2022-11-01 11:39:00,17.111s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:38:44,2022-11-01 11:38:46,1.935s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:38:46,2022-11-01 11:38:50,4.035s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:38:50,2022-11-01 11:38:52,2.563s,PASSED
+"setText(findTestObject(""Object Repository/Logout/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:38:52,2022-11-01 11:38:53,1.074s,PASSED
+"setText(findTestObject(""Object Repository/Logout/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:38:53,2022-11-01 11:38:54,0.886s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:38:54,2022-11-01 11:38:55,0.496s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Logout/Page_frontend-web/div_AltaShop_v-select__selections""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:38:55,2022-11-01 11:38:58,3.409s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e""))",Chrome 106.0.0.0,,,2022-11-01 11:38:58,2022-11-01 11:38:59,0.510s,PASSED
+"click(findTestObject(""Logout/Page_frontend-web/i_Transaksi_v-icon notranslate fas fa-sign-in theme--light""))",Chrome 106.0.0.0,,,2022-11-01 11:38:59,2022-11-01 11:38:59,0.565s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Logout/Page_frontend-web/div_Login""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:38:59,2022-11-01 11:39:00,0.418s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:39:00,2022-11-01 11:39:00,0.710s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC04_Categories,Chrome 106.0.0.0,,,2022-11-01 11:39:00,2022-11-01 11:39:12,12.040s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:39:01,2022-11-01 11:39:03,1.972s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:39:03,2022-11-01 11:39:08,4.852s,PASSED
+"click(findTestObject(""Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections""))",Chrome 106.0.0.0,,,2022-11-01 11:39:08,2022-11-01 11:39:10,2.520s,PASSED
+"click(findTestObject(""Object Repository/Categories/Page_frontend-web/div_Dolanan""))",Chrome 106.0.0.0,,,2022-11-01 11:39:10,2022-11-01 11:39:11,0.585s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:39:11,2022-11-01 11:39:12,0.922s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:39:12,2022-11-01 11:39:12,0.703s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC05_Clearing Categories,Chrome 106.0.0.0,,,2022-11-01 11:39:12,2022-11-01 11:39:29,16.466s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:39:13,2022-11-01 11:39:15,1.778s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:39:15,2022-11-01 11:39:19,4.397s,PASSED
+"click(findTestObject(""Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections""))",Chrome 106.0.0.0,,,2022-11-01 11:39:19,2022-11-01 11:39:22,3.168s,PASSED
+"click(findTestObject(""Object Repository/Categories/Page_frontend-web/div_Dolanan""))",Chrome 106.0.0.0,,,2022-11-01 11:39:22,2022-11-01 11:39:23,0.581s,PASSED
+"click(findTestObject(""Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6""), STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-11-01 11:39:23,2022-11-01 11:39:24,0.980s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:39:24,2022-11-01 11:39:27,3.454s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:39:27,2022-11-01 11:39:29,1.486s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC06_Add Product to Cart,Chrome 106.0.0.0,,,2022-11-01 11:39:29,2022-11-01 11:39:44,15.589s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:39:29,2022-11-01 11:39:31,1.612s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:39:31,2022-11-01 11:39:34,3.603s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:39:34,2022-11-01 11:39:37,2.475s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:39:37,2022-11-01 11:39:38,1.152s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:39:38,2022-11-01 11:39:39,0.776s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:39:39,2022-11-01 11:39:39,0.435s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Beli""))",Chrome 106.0.0.0,,,2022-11-01 11:39:39,2022-11-01 11:39:43,3.303s,PASSED
+"click(findTestObject(""Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shopping-cart theme--dark""))",Chrome 106.0.0.0,,,2022-11-01 11:39:43,2022-11-01 11:39:43,0.512s,PASSED
+"verifyElementPresent(findTestObject(""Product/Page_frontend-web/Total_Cart_item_1""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:39:43,2022-11-01 11:39:44,0.490s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:39:44,2022-11-01 11:39:44,0.813s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC07_Increasing Product Total in Cart,Chrome 106.0.0.0,,,2022-11-01 11:39:44,2022-11-01 11:40:02,17.553s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:39:45,2022-11-01 11:39:47,1.840s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:39:47,2022-11-01 11:39:51,3.659s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:39:51,2022-11-01 11:39:53,2.761s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:39:53,2022-11-01 11:39:55,1.162s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:39:55,2022-11-01 11:39:55,0.749s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:39:55,2022-11-01 11:39:56,0.421s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Beli""))",Chrome 106.0.0.0,,,2022-11-01 11:39:56,2022-11-01 11:39:59,3.339s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9""))",Chrome 106.0.0.0,,,2022-11-01 11:39:59,2022-11-01 11:40:00,0.577s,PASSED
+"click(findTestObject(""Product/Page_frontend-web/Increas_Button""))",Chrome 106.0.0.0,,,2022-11-01 11:40:00,2022-11-01 11:40:00,0.560s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Product/Page_frontend-web/span_2""), ""2"")",Chrome 106.0.0.0,,,2022-11-01 11:40:00,2022-11-01 11:40:01,0.576s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:40:01,2022-11-01 11:40:02,1.271s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC08_Decreasing Product Total in Cart,Chrome 106.0.0.0,,,2022-11-01 11:40:02,2022-11-01 11:40:19,16.784s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:40:02,2022-11-01 11:40:04,1.534s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:40:04,2022-11-01 11:40:08,3.767s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:40:08,2022-11-01 11:40:10,2.196s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:40:10,2022-11-01 11:40:11,1.120s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:40:11,2022-11-01 11:40:12,0.749s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:40:12,2022-11-01 11:40:12,0.396s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Beli""))",Chrome 106.0.0.0,,,2022-11-01 11:40:12,2022-11-01 11:40:16,3.280s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9""))",Chrome 106.0.0.0,,,2022-11-01 11:40:16,2022-11-01 11:40:16,0.540s,PASSED
+"click(findTestObject(""Product/Page_frontend-web/Increas_Button""))",Chrome 106.0.0.0,,,2022-11-01 11:40:16,2022-11-01 11:40:17,0.533s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Product/Page_frontend-web/span_2""), ""2"")",Chrome 106.0.0.0,,,2022-11-01 11:40:17,2022-11-01 11:40:17,0.487s,PASSED
+"click(findTestObject(""Product/Page_frontend-web/decrease_button""))",Chrome 106.0.0.0,,,2022-11-01 11:40:17,2022-11-01 11:40:18,0.523s,PASSED
+"verifyElementText(findTestObject(""Product/Page_frontend-web/span_2""), ""1"")",Chrome 106.0.0.0,,,2022-11-01 11:40:18,2022-11-01 11:40:18,0.468s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:40:18,2022-11-01 11:40:19,0.741s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC09_Pay the Product From Cart,Chrome 106.0.0.0,,,2022-11-01 11:40:19,2022-11-01 11:40:36,17.627s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:40:19,2022-11-01 11:40:21,1.616s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:40:21,2022-11-01 11:40:24,3.497s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:40:24,2022-11-01 11:40:27,2.449s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:40:27,2022-11-01 11:40:28,1.132s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:40:28,2022-11-01 11:40:29,0.736s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:40:29,2022-11-01 11:40:29,0.418s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Beli""))",Chrome 106.0.0.0,,,2022-11-01 11:40:29,2022-11-01 11:40:33,3.791s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9""))",Chrome 106.0.0.0,,,2022-11-01 11:40:33,2022-11-01 11:40:33,0.536s,PASSED
+"click(findTestObject(""Object Repository/Product/Page_frontend-web/span_Bayar""))",Chrome 106.0.0.0,,,2022-11-01 11:40:33,2022-11-01 11:40:34,0.621s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Product/Page_frontend-web/h1_Transactions""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:40:34,2022-11-01 11:40:36,1.691s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:40:36,2022-11-01 11:40:36,0.747s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC10_Give Product Rating,Chrome 106.0.0.0,,,2022-11-01 11:40:36,2022-11-01 11:40:37,0.431s,PASSED
+return null,Chrome 106.0.0.0,,,2022-11-01 11:40:37,2022-11-01 11:40:37,0.000s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC11_Change Product Rating,Chrome 106.0.0.0,,,2022-11-01 11:40:37,2022-11-01 11:40:37,0.494s,PASSED
+return null,Chrome 106.0.0.0,,,2022-11-01 11:40:37,2022-11-01 11:40:37,0.000s,PASSED
+,,,,,,,
+Test Cases/ATC/ATC12_View Transactions,Chrome 106.0.0.0,,,2022-11-01 11:40:38,2022-11-01 11:40:54,16.022s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-11-01 11:40:38,2022-11-01 11:40:39,1.560s,PASSED
+"navigateToUrl(""https://alta-shop.vercel.app/"")",Chrome 106.0.0.0,,,2022-11-01 11:40:39,2022-11-01 11:40:43,3.364s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9""))",Chrome 106.0.0.0,,,2022-11-01 11:40:43,2022-11-01 11:40:45,2.278s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Email_input-602""), ""zack@gmail.com"")",Chrome 106.0.0.0,,,2022-11-01 11:40:45,2022-11-01 11:40:46,1.154s,PASSED
+"setText(findTestObject(""Login/Page_frontend-web/input_Password_input-605""), ""zack123"")",Chrome 106.0.0.0,,,2022-11-01 11:40:46,2022-11-01 11:40:47,0.757s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_frontend-web/span_Login""))",Chrome 106.0.0.0,,,2022-11-01 11:40:47,2022-11-01 11:40:47,0.444s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e""))",Chrome 106.0.0.0,,,2022-11-01 11:40:47,2022-11-01 11:40:51,3.790s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_frontend-web/i_Beli_v-icon notranslate fas fa-history th_483648""))",Chrome 106.0.0.0,,,2022-11-01 11:40:51,2022-11-01 11:40:52,0.467s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Transaction/Page_frontend-web/h1_Transactions""), 0)",Chrome 106.0.0.0,,,2022-11-01 11:40:52,2022-11-01 11:40:53,1.014s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-11-01 11:40:53,2022-11-01 11:40:54,0.815s,PASSED
