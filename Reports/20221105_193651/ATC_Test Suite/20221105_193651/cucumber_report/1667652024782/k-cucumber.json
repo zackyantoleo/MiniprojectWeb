@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f83e0681-5975-4988-92da-4473e8f4fae4",
+        "line": 4,
+        "name": "Select Categories",
+        "description": "",
+        "id": "categories;select-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4723913500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7c59653c-4edd-4b3d-8494-96c8fcb26e66"
+          },
+          {
+            "result": {
+              "duration": 3921298000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select categories dropdown",
+            "match": {
+              "location": "categoriessteps.Userselectcategoriesdropdown()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "084fdc3b-8a39-4b28-9b75-3b7af74198ff"
+          },
+          {
+            "result": {
+              "duration": 671961100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User choice categories",
+            "match": {
+              "location": "categoriessteps.Userchoicecategories()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6d5b7a9f-9383-470e-8a4c-6ada60a1bc59"
+          },
+          {
+            "result": {
+              "duration": 2134073600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Product with selected Categories showed",
+            "match": {
+              "location": "categoriessteps.ProductwithselectedCategoriesshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7fd3728c-de5f-463c-a814-e31100e80407"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "41cb929c-5963-45ee-b269-82d58ae7a73b",
+        "line": 10,
+        "name": "Clearing Categories",
+        "description": "",
+        "id": "categories;clearing-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3873902000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "22e999a2-cd6e-47fb-bc73-bf4d42bbea13"
+          },
+          {
+            "result": {
+              "duration": 5325138500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User already select categories",
+            "match": {
+              "location": "categoriessteps.Useralreadyselectcategories()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f61dc1f0-0fcd-4123-9599-99735ef80869"
+          },
+          {
+            "result": {
+              "duration": 1585706800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click clear categories button",
+            "match": {
+              "location": "categoriessteps.Userclickclearcategoriesbutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "abf6dae2-eadb-4700-aad5-f2db87596139"
+          },
+          {
+            "result": {
+              "duration": 3931461200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "All product showed",
+            "match": {
+              "location": "categoriessteps.Allproductshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "57d21646-6532-4f29-93ab-1a327dc7f8e4"
+          }
+        ]
+      }
+    ],
+    "name": "Categories",
+    "description": "  As a user i want to filter the product with categories feature",
+    "id": "categories",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/categories.feature",
+    "tags": []
+  }
+]

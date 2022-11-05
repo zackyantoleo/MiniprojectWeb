@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "93d33bf8-14c4-4894-b6e4-f14f88534261",
+        "line": 4,
+        "name": "Logout",
+        "description": "",
+        "id": "logut;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21512891800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage and User already logged in",
+            "match": {
+              "location": "logoutsteps.Useralreadyloggedin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "84533cd7-6172-42cf-8aa8-ef83c751334e"
+          },
+          {
+            "result": {
+              "duration": 451315500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click profile icon at navbar",
+            "match": {
+              "location": "logoutsteps.Userclickprofileiconatnavbar()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "5ebd35c7-de19-4166-8bcb-1c0ada43f838"
+          },
+          {
+            "result": {
+              "duration": 583879700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click logout option",
+            "match": {
+              "location": "logoutsteps.Userclicklogoutoption()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "019717ac-d574-423d-b8c7-2ab865dd0c9b"
+          },
+          {
+            "result": {
+              "duration": 1727035400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "logoutsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "18d4ba28-5aa1-4ae1-a6a5-56c70ea6250a"
+          }
+        ]
+      }
+    ],
+    "name": "Logut",
+    "description": "  As a user i want to logout an account",
+    "id": "logut",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/logout.feature",
+    "tags": []
+  }
+]

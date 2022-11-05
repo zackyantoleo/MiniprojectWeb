@@ -10,7 +10,7 @@ As a new user i want to register an account first
 
     Examples: 
       | fullname  | email               | password |
-      | zackweb   | zackweb12@gmail.com | zack123  |
+      | zackweb   | zackweb12d@gmail.com | zack123  |
       
       @Negative
         Scenario Outline: Register with empty data

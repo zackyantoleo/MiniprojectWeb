@@ -1,0 +1,400 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3976949000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5003763600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1101506800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2581474200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input new zackweb and zackweb12d@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackweb",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb12d@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "zack123",
+                  "offset": 47
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2192744300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click register button",
+            "match": {
+              "location": "registersteps.Clickregisterbutton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4003005700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6083265400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 608511200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2922266900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new  and zackweb@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "zack123",
+                  "offset": 37
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422894900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684941300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4890240600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4196210000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1106747500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2379789600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new zack and  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 10
+                },
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "zack123",
+                  "offset": 24
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480364500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1321716900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4873236600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4033637700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637299200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2469624400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new zack and zackweb@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "",
+                  "offset": 41
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422666800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1141927200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "As a new user i want to register an account first",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/register.feature",
+    "tags": []
+  }
+]

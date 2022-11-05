@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="57.585751">
+<testcase classname="Register" name="Register" time="14.876536">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User open register form.................................................passed
+And Input new zackweb and zackweb12d@gmail.com and zack123..................passed
+Then Click register button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register with empty data" time="14.735447">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User open register form.................................................passed
+And Input new  and zackweb@gmail.com and zack123............................passed
+And User click register button..............................................passed
+Then Error register message showed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register with empty data 2" time="14.384741">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User open register form.................................................passed
+And Input new zack and  and zack123.........................................passed
+And User click register button..............................................passed
+Then Error register message showed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register with empty data 3" time="13.589027">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User open register form.................................................passed
+And Input new zack and zackweb@gmail.com and ...............................passed
+And User click register button..............................................passed
+Then Error register message showed..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

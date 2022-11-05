@@ -1,0 +1,427 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "939c068c-0181-437e-be21-3a5f15d73ad9",
+        "line": 13,
+        "name": "Register",
+        "description": "",
+        "id": "register;register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4118334300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "dd02be07-5723-4379-b323-4b42d7c09181"
+          },
+          {
+            "result": {
+              "duration": 4532162900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "1da3f113-5112-4125-be33-810027ae4d15"
+          },
+          {
+            "result": {
+              "duration": 611715200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cbb8a523-6484-4e6f-afb1-5f62b13ad036"
+          },
+          {
+            "result": {
+              "duration": 2770339400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input new zackweb and zackweb12d@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackweb",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb12d@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "zack123",
+                  "offset": 47
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "364a71c5-0eac-4cdd-8245-e1a09687f7c4"
+          },
+          {
+            "result": {
+              "duration": 2208174400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click register button",
+            "match": {
+              "location": "registersteps.Clickregisterbutton()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9c9398af-0c94-4de4-8bc3-e6dc14ead3ee"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "e2bc8986-3a22-459f-8ec2-1d192d591ea2",
+        "line": 26,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3872987600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a14397df-d097-4aaf-aa7f-40962a9cc7b7"
+          },
+          {
+            "result": {
+              "duration": 4561143300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "8e180e77-fc1e-4191-8698-3c2580018d7b"
+          },
+          {
+            "result": {
+              "duration": 590321300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cf37e45a-9fb7-49de-baec-ec68d38603ad"
+          },
+          {
+            "result": {
+              "duration": 2436829200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new  and zackweb@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "zack123",
+                  "offset": 37
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "03c88d04-24c3-4f23-9c7b-ab54e137bb4b"
+          },
+          {
+            "result": {
+              "duration": 415855600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b740f1d9-54f5-49a0-9b64-e5fcfe572f82"
+          },
+          {
+            "result": {
+              "duration": 729112000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "dc7738df-7d0c-4917-99ad-8d38fc29551e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "42f2e232-5013-4e2f-ae2b-90d2d7fd5be2",
+        "line": 27,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4125304600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3ab51c94-bdff-48d0-a9b1-fa3199ac8c58"
+          },
+          {
+            "result": {
+              "duration": 4394015100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "14fcf6d1-f6bb-4e29-a2a0-5334bb770e9e"
+          },
+          {
+            "result": {
+              "duration": 620948900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "09595d48-b605-4198-9968-32643636c2f0"
+          },
+          {
+            "result": {
+              "duration": 2356920400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new zack and  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 10
+                },
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "zack123",
+                  "offset": 24
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8155dbb1-c731-4102-a7e5-912a85958ed9"
+          },
+          {
+            "result": {
+              "duration": 536453800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "69a2603b-f57a-4b2c-8290-62eff3a34279"
+          },
+          {
+            "result": {
+              "duration": 744899800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1052c9ce-8680-4c4f-9470-461cd8a37e90"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "e10e94df-38bf-4163-b83c-ba3ebe48db7b",
+        "line": 28,
+        "name": "Register with empty data",
+        "description": "",
+        "id": "register;register-with-empty-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4161629700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "862d5513-f84a-402c-8a9f-79dab60e48dc"
+          },
+          {
+            "result": {
+              "duration": 4392091300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a95bdf39-3ecd-4dd0-bf72-8fe23ad3de60"
+          },
+          {
+            "result": {
+              "duration": 620028200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open register form",
+            "match": {
+              "location": "registersteps.Useropenregisterform()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b7be1ceb-18f4-448b-a4d8-31b35aaa2e1e"
+          },
+          {
+            "result": {
+              "duration": 2512054400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input new zack and zackweb@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 10
+                },
+                {
+                  "val": "zackweb@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "",
+                  "offset": 41
+                }
+              ],
+              "location": "registersteps.UserInputFullnameEmailPassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e80176e6-e613-402c-b661-ee85d3565a2b"
+          },
+          {
+            "result": {
+              "duration": 439336400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "registersteps.Userclickregisterbutton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1ddde699-fe4f-4100-8b4a-f9d9f523122b"
+          },
+          {
+            "result": {
+              "duration": 725381200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Error register message showed",
+            "match": {
+              "location": "registersteps.Errorregistermessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9c4e3710-299a-46cd-8327-0ce4edd3815e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "As a new user i want to register an account first",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/register.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="72.211614">
+<testcase classname="Product" name="Add Product to Cart" time="10.538855">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User select the product................................................passed
+And User click beli button..................................................passed
+Then Product will added to the cart.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Increasing Total Product in the Cart" time="14.16011">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User already have product in the cart..................................passed
+And User click plus button..................................................passed
+Then The ammount of product increased.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Decreasing Total Product in the Cart" time="14.553699">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User already have product in the cart..................................passed
+And User click minus button.................................................passed
+Then The ammount of product decreased.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Pay product from Cart" time="21.122128">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User already have product in the cart and User already logged in.......passed
+And User click pay button...................................................passed
+Then Product have been paid.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Pay product from Cart 2" time="11.836822">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User already have product in the cart..................................passed
+And User click pay button...................................................passed
+Then User navigate to homepage again........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Select Categories",
+        "description": "",
+        "id": "categories;select-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5515674100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4372426300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select categories dropdown",
+            "match": {
+              "location": "categoriessteps.Userselectcategoriesdropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2992041500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User choice categories",
+            "match": {
+              "location": "categoriessteps.Userchoicecategories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1665482400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Product with selected Categories showed",
+            "match": {
+              "location": "categoriessteps.ProductwithselectedCategoriesshowed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Clearing Categories",
+        "description": "",
+        "id": "categories;clearing-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3938897500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8342825200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User already select categories",
+            "match": {
+              "location": "categoriessteps.Useralreadyselectcategories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1045594500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click clear categories button",
+            "match": {
+              "location": "categoriessteps.Userclickclearcategoriesbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7871349400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "All product showed",
+            "match": {
+              "location": "categoriessteps.Allproductshowed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Categories",
+    "description": "  As a user i want to filter the product with categories feature",
+    "id": "categories",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/categories.feature",
+    "tags": []
+  }
+]

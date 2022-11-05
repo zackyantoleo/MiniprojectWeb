@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Add Product to Cart",
+        "description": "",
+        "id": "product;add-product-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4084063800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13885900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the product",
+            "match": {
+              "location": "productsteps.Userselecttheproduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4613558500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click beli button",
+            "match": {
+              "location": "productsteps.Userclickbelibutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1814732700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Product will added to the cart",
+            "match": {
+              "location": "productsteps.Productwilladdedtothecart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Increasing Total Product in the Cart",
+        "description": "",
+        "id": "product;increasing-total-product-in-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3968802900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8885565900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User already have product in the cart",
+            "match": {
+              "location": "productsteps.Useralreadyhaveproductinthecart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592399500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click plus button",
+            "match": {
+              "location": "productsteps.Userclickplibutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707040100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The ammount of product increased",
+            "match": {
+              "location": "productsteps.Theammountofproductincreased()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Decreasing Total Product in the Cart",
+        "description": "",
+        "id": "product;decreasing-total-product-in-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4102271700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8661065800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User already have product in the cart",
+            "match": {
+              "location": "productsteps.Useralreadyhaveproductinthecart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1088451500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click minus button",
+            "match": {
+              "location": "productsteps.Userclickminusbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695193500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The ammount of product decreased",
+            "match": {
+              "location": "productsteps.Theammountofproductdecreased()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Pay product from Cart",
+        "description": "",
+        "id": "product;pay-product-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5569720300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11523079400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User already have product in the cart and User already logged in",
+            "match": {
+              "location": "productsteps.UseralreadyhaveproductinthecartandUseralreadyloggedin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117513100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click pay button",
+            "match": {
+              "location": "productsteps.Userclickpaubutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2905812300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Product have been paid",
+            "match": {
+              "location": "productsteps.Producthavebeenpaid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Pay product from Cart",
+        "description": "",
+        "id": "product;pay-product-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5368623400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4620888900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User already have product in the cart",
+            "match": {
+              "location": "productsteps.Useralreadyhaveproductinthecart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594489300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click pay button",
+            "match": {
+              "location": "productsteps.Userclickpaubutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246529800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User navigate to homepage again",
+            "match": {
+              "location": "productsteps.Usernavigatetohomepageagain()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Product",
+    "description": "  As a user i want to Add product to Cart\n  Incresing and decreasing total ammount of the product\n  Pay the product form the cart",
+    "id": "product",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/product.feature",
+    "tags": []
+  }
+]

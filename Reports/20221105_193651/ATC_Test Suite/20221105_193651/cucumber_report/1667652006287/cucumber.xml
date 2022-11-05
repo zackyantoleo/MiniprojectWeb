@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.194756">
+<testcase classname="Logut" name="Logout" time="18.194756">
+<system-out><![CDATA[Given Navigate to altashop homepage and User already logged in..............passed
+When User click profile icon at navbar......................................passed
+And User click logout option................................................passed
+Then User navigate to homepage..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

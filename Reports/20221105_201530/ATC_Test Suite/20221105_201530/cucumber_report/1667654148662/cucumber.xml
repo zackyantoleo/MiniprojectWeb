@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="112.599775">
+<testcase classname="Login" name="Login with valid data" time="23.938435">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and zack123...................................passed
+Then Click login button.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data" time="13.965822">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and aaaaaaa...................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 2" time="17.910941">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zackweb and zack123..........................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 3" time="14.414239">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack123 and zack@gmail.com...................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 4" time="14.637527">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input  and zack123.................................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 5" time="14.548387">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and ..........................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 6" time="13.184424">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input  and ........................................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

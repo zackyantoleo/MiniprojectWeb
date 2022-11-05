@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATC_Test Suite,,,,2022-11-05 19:30:54,2022-11-05 19:31:13,19.202s,FAILED
+,,,,,,,
+Test Cases/Feature File,,,,2022-11-05 19:30:54,2022-11-05 19:31:13,18.761s,FAILED
+"runFeatureFile(""Include/features/Positive/login.feature"")",,,,2022-11-05 19:30:55,2022-11-05 19:31:13,18.191s,FAILED

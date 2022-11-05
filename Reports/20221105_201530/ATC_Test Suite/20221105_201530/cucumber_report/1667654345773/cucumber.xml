@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="35.759811">
+<testcase classname="Categories" name="Select Categories" time="14.554556">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User select categories dropdown........................................passed
+And User choice categories..................................................passed
+Then Product with selected Categories showed................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Categories" name="Clearing Categories" time="21.205255">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User already select categories.........................................passed
+And User click clear categories button......................................passed
+Then All product showed.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

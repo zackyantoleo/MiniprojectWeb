@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATC_Test Suite,Chrome 107.0.0.0,,,2022-11-05 20:15:47,2022-11-05 20:20:54,5m - 7.656s,PASSED
+,,,,,,,
+Test Cases/Feature File,Chrome 107.0.0.0,,,2022-11-05 20:15:47,2022-11-05 20:20:54,5m - 7.158s,PASSED
+"runFeatureFile(""Include/features/Positive/login.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:15:48,2022-11-05 20:17:43,1m - 54.644s,PASSED
+"runFeatureFile(""Include/features/Positive/register.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:17:43,2022-11-05 20:18:40,57.903s,PASSED
+"runFeatureFile(""Include/features/Positive/logout.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:18:40,2022-11-05 20:19:05,24.856s,PASSED
+"runFeatureFile(""Include/features/Positive/categories.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:19:05,2022-11-05 20:19:42,36.307s,PASSED
+"runFeatureFile(""Include/features/Positive/product.feature"")",Chrome 107.0.0.0,,,2022-11-05 20:19:42,2022-11-05 20:20:54,1m - 12.595s,PASSED

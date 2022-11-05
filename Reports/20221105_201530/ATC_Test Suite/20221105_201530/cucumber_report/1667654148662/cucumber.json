@@ -1,0 +1,576 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login with valid data",
+        "description": "",
+        "id": "login;login-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11589489200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3322784000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1970767400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input zack@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6538557300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4403192700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4371497100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1955402300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input zack@gmail.com and aaaaaaa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "aaaaaaa",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1418752300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1799957200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5151925800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7314400000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2096974100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input zackweb and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackweb",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 23
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152433600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185061200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4540772600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4610613100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2508303100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input zack123 and zack@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack123",
+                  "offset": 11
+                },
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1627084800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107420500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4737885700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4917756400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2174016000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User input  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 16
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1591557900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1203437800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4344457500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4365728400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1924305700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User input zack@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1941721900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963159700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4942032500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3679606400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1833514500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User input  and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1470252200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1250981800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user i want to login with my registered account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/login.feature",
+    "tags": []
+  }
+]

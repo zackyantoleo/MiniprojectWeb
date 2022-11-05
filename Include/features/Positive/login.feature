@@ -22,9 +22,8 @@ Feature: Login
     Examples: 
       | email          | password       |
       | zack@gmail.com | aaaaaaa        |
-      | aaaa@gmail.com | zack123        |
+      | zackweb        | zack123        |
       | zack123        | zack@gmail.com |
-      | aaaaaaa        | aaaaaaa        |
 
   Scenario Outline: Login with false data
     Given Navigate to altashop homepage
