@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ATC_Test Suite" time="277.925" tests="10" failures="0" errors="0">
+   <testsuite name="ATC_Test Suite" tests="10" failures="0" errors="0" time="277.925" skipped="0" timestamp="2022-11-02 12:34:49" hostname="Athif - DESKTOP-HMC26PQ" id="Test Suites/ATC_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Athif\\git\\MiniprojectWeb\\Reports\\20221102_123412\\ATC_Test Suite\\20221102_123412"/>
+         <property name="logFiles" value="C:\\Users\\Athif\\git\\MiniprojectWeb\\Reports\\20221102_123412\\ATC_Test Suite\\20221102_123412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Athif - DESKTOP-HMC26PQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5ec52c034a36b1bab3a93130b555302d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ATC/ATC01_Register" time="56.758" classname="Test Cases/ATC/ATC01_Register" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:34:50 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC01_Register: Test Cases/ATC/ATC01_Register
+
+2022-11-02 12:34:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:34:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:34:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:35:09 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:35:34 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Register/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/Page_frontend-web/a_Register")): Object: 'Object Repository/Register/Page_frontend-web/a_Register' is clicked on
+
+2022-11-02 12:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Page_frontend-web/a_Register' is clicked on
+
+2022-11-02 12:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Page_frontend-web/input_Nama Lengkap_input-613"), "zackweb"): Text 'zackweb' is set on object 'Object Repository/Register/Page_frontend-web/input_Nama Lengkap_input-613'
+
+2022-11-02 12:35:40 - [MESSAGE][PASSED] - Text 'zackweb' is set on object 'Object Repository/Register/Page_frontend-web/input_Nama Lengkap_input-613'
+
+2022-11-02 12:35:40 - [TEST_STEP][PASSED] - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-11-02 12:35:40 - [TEST_STEP][PASSED] - RN = Math.random() * 500: null
+
+2022-11-02 12:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zackweb" + RN + "@gmail.com"): Text 'zackweb74@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:35:42 - [MESSAGE][PASSED] - Text 'zackweb74@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:35:43 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/Page_frontend-web/button_Register")): Object: 'Object Repository/Register/Page_frontend-web/button_Register' is clicked on
+
+2022-11-02 12:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Page_frontend-web/button_Register' is clicked on
+
+2022-11-02 12:35:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Register/Page_frontend-web/div_Login"), 0): Object 'Object Repository/Register/Page_frontend-web/div_Login' is present
+
+2022-11-02 12:35:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Register/Page_frontend-web/div_Login' is present
+
+2022-11-02 12:35:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:35:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC02_Login" time="21.318" classname="Test Cases/ATC/ATC02_Login" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:35:47 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC02_Login: Test Cases/ATC/ATC02_Login
+
+2022-11-02 12:35:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:35:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:35:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:35:50 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:35:54 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Login/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:35:59 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:36:00 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_frontend-web/span_Login")): Object: 'Object Repository/Login/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:36:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Page_frontend-web/div_AltaShop_v-select__selections"), 0): Object 'Object Repository/Login/Page_frontend-web/div_AltaShop_v-select__selections' is present
+
+2022-11-02 12:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_frontend-web/div_AltaShop_v-select__selections' is present
+
+2022-11-02 12:36:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:36:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC03_Logout" time="26.32" classname="Test Cases/ATC/ATC03_Logout" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:36:08 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC03_Logout: Test Cases/ATC/ATC03_Logout
+
+2022-11-02 12:36:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:36:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:36:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:36:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:36:11 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:17 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:36:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Logout/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Logout/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:36:23 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Logout/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:36:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Logout/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Logout/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:36:24 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Logout/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_frontend-web/span_Login")): Object: 'Object Repository/Logout/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:36:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Logout/Page_frontend-web/div_AltaShop_v-select__selections"), 0): Object 'Object Repository/Logout/Page_frontend-web/div_AltaShop_v-select__selections' is present
+
+2022-11-02 12:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:36:31 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Page_frontend-web/div_AltaShop_v-select__selections' is present
+
+2022-11-02 12:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e")): Object: 'Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e' is clicked on
+
+2022-11-02 12:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e' is clicked on
+
+2022-11-02 12:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_frontend-web/i_Transaksi_v-icon notranslate fas fa-sign-in theme--light")): Object: 'Object Repository/Logout/Page_frontend-web/i_Transaksi_v-icon notranslate fas fa-sign-in theme--light' is clicked on
+
+2022-11-02 12:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_frontend-web/i_Transaksi_v-icon notranslate fas fa-sign-in theme--light' is clicked on
+
+2022-11-02 12:36:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Logout/Page_frontend-web/div_Login"), 0): Object 'Object Repository/Logout/Page_frontend-web/div_Login' is present
+
+2022-11-02 12:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Page_frontend-web/div_Login' is present
+
+2022-11-02 12:36:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:36:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC04_Categories" time="15.962" classname="Test Cases/ATC/ATC04_Categories" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:36:35 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC04_Categories: Test Cases/ATC/ATC04_Categories
+
+2022-11-02 12:36:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:36:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:36:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:36:40 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:44 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections")): Object: 'Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections' is clicked on
+
+2022-11-02 12:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections' is clicked on
+
+2022-11-02 12:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Categories/Page_frontend-web/div_Dolanan")): Object: 'Object Repository/Categories/Page_frontend-web/div_Dolanan' is clicked on
+
+2022-11-02 12:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Categories/Page_frontend-web/div_Dolanan' is clicked on
+
+2022-11-02 12:36:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6"), 0): Object 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' is present
+
+2022-11-02 12:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' is present
+
+2022-11-02 12:36:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:36:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC05_Clearing Categories" time="21.4" classname="Test Cases/ATC/ATC05_Clearing Categories" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:36:51 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC05_Clearing Categories: Test Cases/ATC/ATC05_Clearing Categories
+
+2022-11-02 12:36:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:36:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:36:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:36:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:36:53 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:58 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections")): Object: 'Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections' is clicked on
+
+2022-11-02 12:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Categories/Page_frontend-web/div_AltaShop_v-select__selections' is clicked on
+
+2022-11-02 12:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Categories/Page_frontend-web/div_Dolanan")): Object: 'Object Repository/Categories/Page_frontend-web/div_Dolanan' is clicked on
+
+2022-11-02 12:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Categories/Page_frontend-web/div_Dolanan' is clicked on
+
+2022-11-02 12:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6"), STOP_ON_FAILURE): Object: 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' is clicked on
+
+2022-11-02 12:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' is clicked on
+
+2022-11-02 12:37:05 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6"), 0): Web element with id: 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' located by 'By.xpath: /html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' is not present after '30' second(s)
+
+2022-11-02 12:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:37:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Categories/Page_frontend-web/button_Dolanan_v-icon notranslate v-icon--l_dd68f6' located by 'By.xpath: /html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' is not present after '30' second(s)
+
+2022-11-02 12:37:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:37:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC06_Add Product to Cart" time="23.986" classname="Test Cases/ATC/ATC06_Add Product to Cart" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:37:12 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC06_Add Product to Cart: Test Cases/ATC/ATC06_Add Product to Cart
+
+2022-11-02 12:37:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:37:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:37:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:37:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:37:16 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:37:21 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:37:26 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:37:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:37:27 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Login")): Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Beli")): Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shopping-cart theme--dark")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shopping-cart theme--dark' is clicked on
+
+2022-11-02 12:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shopping-cart theme--dark' is clicked on
+
+2022-11-02 12:37:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product/Page_frontend-web/Total_Cart_item_1"), 0): Object 'Object Repository/Product/Page_frontend-web/Total_Cart_item_1' is present
+
+2022-11-02 12:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Product/Page_frontend-web/Total_Cart_item_1' is present
+
+2022-11-02 12:37:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:37:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC07_Increasing Product Total in Cart" time="29.549" classname="Test Cases/ATC/ATC07_Increasing Product Total in Cart" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:37:36 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC07_Increasing Product Total in Cart: Test Cases/ATC/ATC07_Increasing Product Total in Cart
+
+2022-11-02 12:37:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:37:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:37:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:37:39 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:37:43 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:37:49 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:37:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:37:50 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Login")): Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Beli")): Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Product/Page_frontend-web/Increas_Button")): Object: 'Object Repository/Product/Page_frontend-web/Increas_Button' is clicked on
+
+2022-11-02 12:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/Increas_Button' is clicked on
+
+2022-11-02 12:38:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Product/Page_frontend-web/span_2"), "2"): Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:38:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC08_Decreasing Product Total in Cart" time="28.333" classname="Test Cases/ATC/ATC08_Decreasing Product Total in Cart" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:38:06 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC08_Decreasing Product Total in Cart: Test Cases/ATC/ATC08_Decreasing Product Total in Cart
+
+2022-11-02 12:38:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:38:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:38:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:38:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:38:12 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:38:17 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:38:22 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:38:23 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Login")): Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Beli")): Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Product/Page_frontend-web/Increas_Button")): Object: 'Object Repository/Product/Page_frontend-web/Increas_Button' is clicked on
+
+2022-11-02 12:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/Increas_Button' is clicked on
+
+2022-11-02 12:38:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Product/Page_frontend-web/span_2"), "2"): Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Product/Page_frontend-web/decrease_button")): Object: 'Object Repository/Product/Page_frontend-web/decrease_button' is clicked on
+
+2022-11-02 12:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/decrease_button' is clicked on
+
+2022-11-02 12:38:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Product/Page_frontend-web/span_2"), "1"): Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product/Page_frontend-web/span_2' are matched.
+
+2022-11-02 12:38:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:38:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC09_Pay the Product From Cart" time="28.708" classname="Test Cases/ATC/ATC09_Pay the Product From Cart" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:38:34 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC09_Pay the Product From Cart: Test Cases/ATC/ATC09_Pay the Product From Cart
+
+2022-11-02 12:38:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:38:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:38:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:38:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:38:37 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:38:41 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:38:47 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:38:48 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Login")): Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Beli")): Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Beli' is clicked on
+
+2022-11-02 12:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9")): Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-02 12:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product/Page_frontend-web/span_Bayar")): Object: 'Object Repository/Product/Page_frontend-web/span_Bayar' is clicked on
+
+2022-11-02 12:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Product/Page_frontend-web/span_Bayar' is clicked on
+
+2022-11-02 12:38:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Product/Page_frontend-web/h1_Transactions"), 0): Object 'Object Repository/Product/Page_frontend-web/h1_Transactions' is present
+
+2022-11-02 12:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/Product/Page_frontend-web/h1_Transactions' is present
+
+2022-11-02 12:39:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:39:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ATC/ATC12_View Transactions" time="24.242" classname="Test Cases/ATC/ATC12_View Transactions" status="PASSED">
+         <system-out><![CDATA[2022-11-02 12:39:03 - [TEST_CASE][PASSED] - Test Cases/ATC/ATC12_View Transactions: Test Cases/ATC/ATC12_View Transactions
+
+2022-11-02 12:39:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 12:39:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 12:39:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 12:39:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 12:39:07 - [TEST_STEP][PASSED] - navigateToUrl("https://alta-shop.vercel.app/"): Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:39:11 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-02 12:39:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9")): Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-sign-i_3d16a9' is clicked on
+
+2022-11-02 12:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Email_input-602"), "zack@gmail.com"): Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:39:16 - [MESSAGE][PASSED] - Text 'zack@gmail.com' is set on object 'Object Repository/Login/Page_frontend-web/input_Email_input-602'
+
+2022-11-02 12:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_frontend-web/input_Password_input-605"), "zack123"): Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:39:17 - [MESSAGE][PASSED] - Text 'zack123' is set on object 'Object Repository/Login/Page_frontend-web/input_Password_input-605'
+
+2022-11-02 12:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transaction/Page_frontend-web/span_Login")): Object: 'Object Repository/Transaction/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/span_Login' is clicked on
+
+2022-11-02 12:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e")): Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e' is clicked on
+
+2022-11-02 12:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-user t_f0827e' is clicked on
+
+2022-11-02 12:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Transaction/Page_frontend-web/i_Beli_v-icon notranslate fas fa-history th_483648")): Object: 'Object Repository/Transaction/Page_frontend-web/i_Beli_v-icon notranslate fas fa-history th_483648' is clicked on
+
+2022-11-02 12:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Transaction/Page_frontend-web/i_Beli_v-icon notranslate fas fa-history th_483648' is clicked on
+
+2022-11-02 12:39:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Transaction/Page_frontend-web/h1_Transactions"), 0): Object 'Object Repository/Transaction/Page_frontend-web/h1_Transactions' is present
+
+2022-11-02 12:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 12:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transaction/Page_frontend-web/h1_Transactions' is present
+
+2022-11-02 12:39:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 12:39:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-02 12:34:49 - [TEST_SUITE][PASSED] - ATC_Test Suite: Test Cases/ATC/ATC12_View Transactions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

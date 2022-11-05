@@ -6,12 +6,12 @@
    <elementGuidId>1cd8ed01-2bc1-4db4-ae20-b0614d99494f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/main/div/div/div/div[2]/form/div[3]/button/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default.primary > span.v-btn__content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/main/div/div/div/div[2]/form/div[3]/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ad1ab5fa-4b40-499c-bc78-1737a1e54b5f</webElementGuid>
+      <webElementGuid>8c44f224-d3f9-455b-aa05-3b5dacc1492c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-btn__content</value>
-      <webElementGuid>24252048-d71b-4013-94a4-9412b12f8e92</webElementGuid>
+      <webElementGuid>e2665b11-dd44-4feb-b62c-fe831703cee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>c396ccbd-894f-4ccc-9cb3-92ae796608d2</webElementGuid>
+      <webElementGuid>e2c3809a-e0d2-4d2e-b53a-fad33fb5243c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/main[@class=&quot;v-main&quot;]/div[@class=&quot;v-main__wrap&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;v-card v-sheet theme--light&quot;]/div[@class=&quot;v-card__text&quot;]/form[@class=&quot;v-form&quot;]/div[@class=&quot;text-center&quot;]/button[@class=&quot;v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary&quot;]/span[@class=&quot;v-btn__content&quot;]</value>
-      <webElementGuid>342238fb-ef8a-454e-8b52-786bfc42a242</webElementGuid>
+      <webElementGuid>64f0e756-7d64-4114-be1d-41823df5e427</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/div/div/div[2]/form/div[3]/button/span</value>
-      <webElementGuid>5736704c-6950-4086-95d6-8d0f86ec4bc1</webElementGuid>
+      <webElementGuid>2e976053-6aeb-4307-a626-7f00f4590821</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[1]</value>
-      <webElementGuid>a62c2f66-fef0-4e5f-aa3b-018930c7850f</webElementGuid>
+      <webElementGuid>d365e050-8c12-423a-aba7-ebac877a68c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::span[1]</value>
-      <webElementGuid>2e7ef04a-df26-414d-8253-1c7b49c6da6b</webElementGuid>
+      <webElementGuid>082231c2-ef3f-4abf-872a-663eb5c2d94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::span[3]</value>
-      <webElementGuid>6ebb63bc-ee70-4da4-a6c3-93f99cab46df</webElementGuid>
+      <webElementGuid>07f350f5-4997-4771-bdc2-87d21bab7e98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button/span</value>
-      <webElementGuid>9f387941-b324-4568-998f-357f9711b6c9</webElementGuid>
+      <webElementGuid>96606ea8-bbac-4fe4-9c72-0cd3229470a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>0c39f39f-bd47-4a81-b4ac-aee4d73e3376</webElementGuid>
+      <webElementGuid>1946d68f-2127-45ef-afc5-861155bfe3c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

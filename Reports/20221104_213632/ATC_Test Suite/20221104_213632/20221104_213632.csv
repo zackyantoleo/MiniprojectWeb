@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ATC_Test Suite,Chrome 106.0.0.0,,,2022-11-04 21:36:45,2022-11-04 21:39:10,2m - 24.846s,FAILED
+,,,,,,,
+Test Cases/Feature File,Chrome 106.0.0.0,,,2022-11-04 21:36:46,2022-11-04 21:39:10,2m - 24.106s,FAILED
+"runFeatureFile(""Include/features/Positive/login.feature"")",Chrome 106.0.0.0,,,2022-11-04 21:36:47,2022-11-04 21:39:10,2m - 23.135s,FAILED

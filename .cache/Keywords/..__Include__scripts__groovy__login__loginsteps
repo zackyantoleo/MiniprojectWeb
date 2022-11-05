@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "DF71B0058A9CE530A196418EC226E723",
+  "keywordFileContentHash": "4CB0DB78A88BAA4474D3F8F06FCC0E0B",
   "keywordClasses": [
     {
       "name": "login.loginsteps",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

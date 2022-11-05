@@ -27,10 +27,7 @@ WebUI.setText(findTestObject('Login/Page_frontend-web/input_Email_input-602'), '
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_frontend-web/input_Password_input-605'), 'zack123')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_frontend-web/span_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_frontend-web/div_AltaShop_v-select__selections'), 
-    0)
+WebUI.click(findTestObject('Login/Page_frontend-web/span_Login2'))
 
 WebUI.closeBrowser()
 

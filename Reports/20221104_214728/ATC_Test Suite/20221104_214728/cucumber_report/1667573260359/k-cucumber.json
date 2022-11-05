@@ -1,0 +1,708 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "de6ace40-dc5a-4e00-be66-834ea8aaa663",
+        "line": 12,
+        "name": "Login with valid data",
+        "description": "",
+        "id": "login;login-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7367268100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "2e1bb612-55b8-4e63-918d-af5989fe8002"
+          },
+          {
+            "result": {
+              "duration": 4356757700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a4f3f070-cd9f-4bc4-b84a-0ed43ee34a92"
+          },
+          {
+            "result": {
+              "duration": 2077964000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input zack@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3fe2be20-9163-4eba-a612-cf156cbc8f58"
+          },
+          {
+            "result": {
+              "duration": 8080266700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4b9e58fa-388c-4add-8e11-71fa8e5cca7e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "f361a1c5-27e0-4ed1-ade3-97dd6178a240",
+        "line": 24,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4996323800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "07524a21-68d1-4f71-b27c-8f7d00994c8a"
+          },
+          {
+            "result": {
+              "duration": 4472751700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "bf12f397-88bb-4019-8372-b80727829ad9"
+          },
+          {
+            "result": {
+              "duration": 1988844800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input zack@gmail.com and aaaaaaa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "aaaaaaa",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d0e16e0b-faa7-4143-a17b-851a447d84d3"
+          },
+          {
+            "result": {
+              "duration": 2308690100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fa060172-8b63-43aa-b18a-8eb7178bb7b0"
+          },
+          {
+            "result": {
+              "duration": 1244225400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "eafd7e5f-c426-4dc3-ad3f-bfba88468873"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "980e5893-548d-4e63-a04e-900f73c4bdc7",
+        "line": 25,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4293108800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e5597155-3df7-416b-bbbc-e7d447a6ec61"
+          },
+          {
+            "result": {
+              "duration": 4589496700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "82bafffe-8159-4ef9-9aff-8880729dfabc"
+          },
+          {
+            "result": {
+              "duration": 2439122400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input aaaa@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaaa@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "66fe001f-28aa-4428-be6b-2f399a56aac3"
+          },
+          {
+            "result": {
+              "duration": 1760994800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0a291365-14d7-44dd-a532-867ba8fdea58"
+          },
+          {
+            "result": {
+              "duration": 1205390800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "75a0988d-eb3b-490d-b7c5-75117fac03cd"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "f6527a06-981e-4c60-bfdc-b177a288c1a5",
+        "line": 26,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4748042400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4c5cf031-f4ab-4f40-b409-a2bdf7a49217"
+          },
+          {
+            "result": {
+              "duration": 5137811200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "efdecd3c-d87b-41a1-a730-d37c793c95c1"
+          },
+          {
+            "result": {
+              "duration": 2311105500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input zack123 and zack@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack123",
+                  "offset": 11
+                },
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bd426a76-f029-4198-928d-a6033124be99"
+          },
+          {
+            "result": {
+              "duration": 1743675200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "99eb2f42-6231-4d6e-b542-e3ea567941e9"
+          },
+          {
+            "result": {
+              "duration": 1215241800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "467b92ca-89d3-4b08-8f28-b6f3160b780c"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "713aa0b4-11d1-4061-8569-c968f01cb649",
+        "line": 27,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6352128400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3d54ddd6-d9d0-4319-a258-f9044dd9c103"
+          },
+          {
+            "result": {
+              "duration": 4250665900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e5103d39-37d7-4583-ad07-1e58d463ab7b"
+          },
+          {
+            "result": {
+              "duration": 2328597400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User input aaaaaaa and aaaaaaa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaaaaaa",
+                  "offset": 11
+                },
+                {
+                  "val": "aaaaaaa",
+                  "offset": 23
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "38d99777-4e62-46a5-b702-db62d416b42f"
+          },
+          {
+            "result": {
+              "duration": 2267374400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "67a02eb7-b193-4e52-8a88-7051ab929a59"
+          },
+          {
+            "result": {
+              "duration": 1175658500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f009bb63-c2b4-4f5a-8f99-0922f963b754"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "00f7c099-015a-4090-a3f9-0fbe86400ad2",
+        "line": 38,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5850265100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3c3ce238-a968-41ed-b060-22a1df54cee5"
+          },
+          {
+            "result": {
+              "duration": 4018220900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a7f81df7-ca87-49ad-94eb-fcf39758013b"
+          },
+          {
+            "result": {
+              "duration": 2312247600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User input  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "zack123",
+                  "offset": 16
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cdf872f7-023d-4971-864c-4986f6736896"
+          },
+          {
+            "result": {
+              "duration": 1755136200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "da963c4a-b4d1-4252-9b48-aba1bd09ea52"
+          },
+          {
+            "result": {
+              "duration": 1176879800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ec40a5dc-91d8-4c02-8bba-fbe668ecf9a4"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4b6d3a82-0e96-4cd1-b4c5-f1da450cc053",
+        "line": 39,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7516741700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "14b71967-ea48-4c05-b932-ea7854d30676"
+          },
+          {
+            "result": {
+              "duration": 2999946400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "12286fb7-d4d8-4078-b29a-71a82d8664bb"
+          },
+          {
+            "result": {
+              "duration": 2310645100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User input zack@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e746884f-dd73-481e-ba2b-3503367260ce"
+          },
+          {
+            "result": {
+              "duration": 1551371700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5e4987bd-32a7-4f24-bdc2-949ae5e61c55"
+          },
+          {
+            "result": {
+              "duration": 1241764700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d5f7d02b-6ade-4595-945b-9c5212f2032d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "be8701ce-50c4-40c7-a577-2bd6c91147c4",
+        "line": 40,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6251785200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Navigate to altashop homepage",
+            "match": {
+              "location": "loginsteps.Navigatetoaltashophomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "41f8ac9f-0a54-4545-ae44-9f4dfb298ea1"
+          },
+          {
+            "result": {
+              "duration": 4294647500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "loginsteps.Usernavigatetologinpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "61a05338-a39e-48a7-bc71-afd971590603"
+          },
+          {
+            "result": {
+              "duration": 2212823200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User input  and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "loginsteps.Userfillemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0d9d4b40-7de0-4eb2-88c4-087a16d8318d"
+          },
+          {
+            "result": {
+              "duration": 1556212800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click login button",
+            "match": {
+              "location": "loginsteps.Clickloginbutton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3f8cee83-5086-4540-a637-35620921dcf8"
+          },
+          {
+            "result": {
+              "duration": 1205731800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Error message showed",
+            "match": {
+              "location": "loginsteps.Errormessageshowed()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e7fd8d8e-87f0-4bfc-9d22-09a44d6fa412"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user i want to login with my registered account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniprojectWeb/Include/features/Positive/login.feature",
+    "tags": []
+  }
+]

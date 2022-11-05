@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.runFeatureFile('Include/features/Positive/login.feature')
+
+CucumberKW.runFeatureFile('Include/features/Positive/register.feature')
+
+CucumberKW.runFeatureFile('Include/features/Positive/logout.feature')
+
+CucumberKW.runFeatureFile('Include/features/Positive/categories.feature')
+
+CucumberKW.runFeatureFile('Include/features/Positive/product.feature')
+

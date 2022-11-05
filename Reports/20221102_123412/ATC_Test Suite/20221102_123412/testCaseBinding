@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/ATC/ATC01_Register","testCaseId":"Test Cases/ATC/ATC01_Register","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC02_Login","testCaseId":"Test Cases/ATC/ATC02_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC03_Logout","testCaseId":"Test Cases/ATC/ATC03_Logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC04_Categories","testCaseId":"Test Cases/ATC/ATC04_Categories","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC05_Clearing Categories","testCaseId":"Test Cases/ATC/ATC05_Clearing Categories","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC06_Add Product to Cart","testCaseId":"Test Cases/ATC/ATC06_Add Product to Cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC07_Increasing Product Total in Cart","testCaseId":"Test Cases/ATC/ATC07_Increasing Product Total in Cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC08_Decreasing Product Total in Cart","testCaseId":"Test Cases/ATC/ATC08_Decreasing Product Total in Cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC09_Pay the Product From Cart","testCaseId":"Test Cases/ATC/ATC09_Pay the Product From Cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/ATC/ATC12_View Transactions","testCaseId":"Test Cases/ATC/ATC12_View Transactions","iterationVariableName":""}

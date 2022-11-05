@@ -31,11 +31,11 @@ int RN
 
 RN = ((Math.random() * 500) as int)
 
-WebUI.setText(findTestObject('Login/Page_frontend-web/input_Email_input-602'), ('zackweb' + RN) + '@gmail.com')
+WebUI.setText(findTestObject('Register/Page_frontend-web/input_Email_input-616'), ('zackweb' + RN) + '@gmail.com')
 
-WebUI.setText(findTestObject('Login/Page_frontend-web/input_Password_input-605'), 'zack123')
+WebUI.setText(findTestObject('Register/Page_frontend-web/input_Password_input-619'), 'zack123')
 
-WebUI.click(findTestObject('Object Repository/Register/Page_frontend-web/button_Register'))
+WebUI.click(findTestObject('Register/Page_frontend-web/Regis_but'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Register/Page_frontend-web/div_Login'), 0)
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="129.550016">
+<testcase classname="Login" name="Login with valid data" time="22.378393">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and zack123...................................passed
+Then Click login button.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data" time="15.029241">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and aaaaaaa...................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 2" time="14.299087">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input aaaa@gmail.com and zack123...................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 3" time="15.171863">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack123 and zack@gmail.com...................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 4" time="16.385534">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input aaaaaaa and aaaaaaa..........................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 5" time="15.123819">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input  and zack123.................................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 6" time="15.631018">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input zack@gmail.com and ..........................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 7" time="15.531061">
+<system-out><![CDATA[Given Navigate to altashop homepage.........................................passed
+When User navigate to login page............................................passed
+And User input  and ........................................................passed
+And User click login button.................................................passed
+Then Error message showed...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

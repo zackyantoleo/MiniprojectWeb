@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "3C50147D2FBA4EDEC2A351783A60D62D",
+  "keywordFileContentHash": "D8CE740B894AF25DBF399DC6041420C6",
   "keywordClasses": [
     {
       "name": "logout.logoutsteps",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

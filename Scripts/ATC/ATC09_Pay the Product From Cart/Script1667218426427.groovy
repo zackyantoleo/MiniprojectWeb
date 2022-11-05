@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Login/Page_frontend-web/input_Password_input-605')
 
 WebUI.click(findTestObject('Object Repository/Product/Page_frontend-web/span_Login'))
 
-WebUI.click(findTestObject('Object Repository/Product/Page_frontend-web/span_Beli'))
+WebUI.click(findTestObject('Product/Page_frontend-web/beli_button'))
 
 WebUI.click(findTestObject('Object Repository/Product/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9'))
 
